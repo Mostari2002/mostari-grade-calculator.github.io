@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Grade Calculator-Mostari</title>
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+    <div class="row flex-center child-borders">
+          
+        <form  id="calculator">
+            <div class="row flex-center">
+            <h4 >MA in English Literature: 3rd semester</h4>
+            </div>
+
+
+            <div class="row flex-center">
+            <label for="grade1" class="margin">Anglophone Novel/Poetry: </label>
+             <input type="number" id="grade1" class="margin">
+        </div>
+
+        <div class="row flex-center">
+          <label for="grade2" class="margin">Advanced/Essay Writing:</label>
+   
+          <input type="number" id="grade2" class="margin">
+        </div>
+
+        <div class="row flex-center">
+            <label for="grade3" class="margin">Research Proposal/Communication Skills:</label>
+             <input type="number" id="grade3" class="margin">
+        </div>
+
+
+          <div class="row flex-center">
+          <label for="grade4" class="margin">Methodological Issues/Critical Pedagogy:</label>
+          <input type="number" id="grade4" class="margin">
+          </div>    
+
+          <div class="row flex-center">
+          <label for="grade5" class="margin">Narratology (Option):</label>
+          <input type="number" id="grade5" class="margin">
+        </div>
+
+        <div class=" text-center">
+          <button type="button" onclick="calculate()" class="btn-secondary margin">What's My Grade?</button>
+        </form>
+    
+        
+        <div id="result"></div>
+    
+        <br><br><br>
+    <div class="row flex-center child-borders">
+        <a href="index.html" class="paper-btn  btn-success-outline margin">Main Page</a>
+        </div>
+
+    </div>
+
+
+    
+</div>
+
+        <script src="script.js"> </script>
+
+
+    
+
+
+    <footer class="container3">
+        built by Mostari Lagha
+    </footer>
+
+</body>
+
+</html>
+
